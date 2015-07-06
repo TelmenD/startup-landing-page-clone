@@ -451,12 +451,11 @@ div {
 
 .introduction {
   background-image: url('../images/first-background.jpg');
-  background-position: 0 bottom;
+  background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 38rem;
-  /*width:100%;*/
-  /*overflow: scroll;*/
+  height: 45rem;
+  overflow: auto;
 }
 
 .introduction > .content,
@@ -501,7 +500,7 @@ div {
 
 .introduction h1{
   font-size: 3em;
-  margin-top: 6em;
+  margin-top: 17em;
 }
 
 .introduction h3 {
@@ -511,6 +510,9 @@ div {
 
 .top-navigation {
     background-color: #fff;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
 }
 
 .top-navigation > .content > .links {
@@ -557,4 +559,38 @@ a {
 
 .top-navigation > .content > .logo {
   margin: 1em 0em;
+}
+
+.mid-section > .lists li{
+  display: inline-block;
+  /*can't make it width:33.3%*/
+  width: 33%;
+  height: 15em;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.mid-section {
+  width: 60em;
+  margin: 0 auto;
+  text-align:center;
+  box-sizing: border-box;
+}
+
+.mid-section ul {
+  background-color: white;
+  padding:0;
+}
+
+.mid-section h1, h3{
+  font-weight: 300;
+}
+
+.mid-section h1 {
+  font-size: 3em;
+}
+
+
+.mid-section h3 {
+  font-size: 1.5em;
 }
