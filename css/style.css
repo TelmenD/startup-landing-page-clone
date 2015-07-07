@@ -563,8 +563,8 @@ a {
 
 .mid-section > .lists li{
   display: inline-block;
-  /*can't make it width:33.3%*/
-  width: 33%;
+  /*can't make it width:33.3 and 33%*/
+  width: 32%;
   height: 15em;
   text-align: center;
   box-sizing: border-box;
