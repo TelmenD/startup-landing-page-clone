@@ -566,6 +566,7 @@ a {
 }
 
 .top-navigation > .content > .logo {
+  float:left;
   margin: 1em 0em;
 }
 
