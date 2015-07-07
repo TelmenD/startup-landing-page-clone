@@ -524,6 +524,7 @@ div {
   -webkit-margin-end: 0px;
   -webkit-padding-start: 0;
   display: inline-block;
+  margin-top: 1em;
 }
 
 .top-navigation > .content > .links > .active {
