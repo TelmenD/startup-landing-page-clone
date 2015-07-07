@@ -523,6 +523,7 @@ div {
   -webkit-margin-start: 0px;
   -webkit-margin-end: 0px;
   -webkit-padding-start: 0;
+  display: inline-block;
 }
 
 .top-navigation > .content > .links > .active {
